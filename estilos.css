@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+}
+header{
+    height: auto;
+
+}
+
+section{
+    height: 60vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 3em;
+}
+
+footer{
+    height: auto;
+}
+
+@media (max-width:600px) {
+    
+}

@@ -7,18 +7,47 @@
     <link rel="stylesheet" href="estilos.css">
         <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
-    <title>App Prueba</title>
+    <title>Login app</title>
 
 
 </head>
 <body>
     <div class="row">
-        
+        <header class="col s12">
+            <h1 class="text center teal-text">LoginAPP</h1>
+            <h4 class="text center">Bienvenido a este software</h4>
+        </header>
+        <section class="col s12">
+            <form class="form col s12 m4" >
+                <div class="row">
+                    <div class="col s12 m8">
+                        <i class="material-icons">mail</i>
+                        <input class="input" type="text" name="Usuario" id="Usuario" placeholder="email@example.com">
+                    </div>
+                    <div class="col s12 m8">
+                        <i class="material-icons prefix">https</i>
+                        <input class="input" type="password" name="Password" id="Password" placeholder="Password">
+                    </div>
+                    <button class="waves-effect waves-light btn col s12 m8"><i class="material-icons left">cloud</i> Alooo </button>
+                </div>
+
+            </form>
+        </section>
+
+        <footer class="page footer col s12 center teal white-text">
+            <P>Login app &copy; 2024</P>
+            <p>V 0.0.1</p>
+        </footer>
+
+
     </div>
 
-    
+    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+    <!--Script propios-->
+    <script src="script.js"></script>
 </body>
 </html>
